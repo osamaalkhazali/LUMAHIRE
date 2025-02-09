@@ -14,7 +14,8 @@ let mainUsers = [
     phone : '0123456789',
     age : 25,
     email: 'luma@gmail.com',
-    password: 'Asdfghjkl1*'
+    password: 'Asdfghjkl1*',
+    history: []
   },
   {
     id: 2,
@@ -22,7 +23,8 @@ let mainUsers = [
     phone : '0123456789',
     age : 27,
     email: 'osama@gmail.com',
-    password: 'Asdfghjkl1*'
+    password: 'Asdfghjkl1*',
+    history: []
   },
   {
     id: 2,
@@ -30,7 +32,8 @@ let mainUsers = [
     phone : '0123456789',
     age : 26,
     email: 'omar@gmail.com',
-    password: 'Asdfghjkl1*'
+    password: 'Asdfghjkl1*',
+    history: []
   },
   {
     id: 2,
@@ -38,7 +41,8 @@ let mainUsers = [
     phone : '0123456789',
     age : 25,
     email: 'sara@gmail.com',
-    password: 'Asdfghjkl1*'
+    password: 'Asdfghjkl1*',
+    history: []
   },
 ]
 
@@ -119,7 +123,8 @@ form.addEventListener('submit' , (event) => {
         phone : userPhone.value,
         age : userAge.value,
         email: email.value,
-        password: password.value
+        password: password.value,
+        history: []
       }
       
       users.push(user);
@@ -162,7 +167,7 @@ if(customer[0].password===loginPassword.value
     phone : customer[0].phone,
     age : customer[0].age,
     email: customer[0].email,
-    history: [],
+    history: customer[0].history,
   }
   loginMessage.textContent="Logged in successfully";
   localStorage.setItem('user',JSON.stringify(userData))

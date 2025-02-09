@@ -55,7 +55,7 @@ function jobQuery(job) {
                                     <i class="far fa-heart"></i>
                                   </a>
                                   <!-- Apply Now Button -->
-                                  <a class="btn btn-primary btn-sm" onclick="history(${job.id})">
+                                  <a class="btn btn-primary btn-sm" href="mailto:${job.email}" onclick="history(${job.id})">
                                     <i class="fas fa-paper-plane me-1"></i>${check(job.id)}
                                   </a>
                                 </div>
@@ -70,9 +70,21 @@ function jobQuery(job) {
 
 
 function history(id) {
+  if (check(id) === 'Applied') {
+    return
+  }
   const userData = JSON.parse(localStorage.getItem('user'))
   userData.history.push(id)
   localStorage.setItem('user', JSON.stringify(userData))
+  
+  let allUsers = JSON.parse(localStorage.getItem('users'))
+  allUsers.forEach(user => {
+    if (user.id === userData.id) {
+      user.history.push(id)
+    }
+  })
+  localStorage.setItem('users', JSON.stringify(allUsers))
+
   document.querySelector(`a[onclick="history(${id})"]`).innerHTML = '<i class="fas fa-paper-plane me-1"></i> Applied'
 }
 
