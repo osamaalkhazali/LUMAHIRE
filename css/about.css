@@ -1,0 +1,60 @@
+
+section {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: #F9F9F9 !important;
+}
+
+
+
+section {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.info-box {
+  align-items: center;
+  display: flex;
+}
+
+.info-box img {
+  width: 90px;
+}
+
+.img0 {
+  width:45%;
+  
+  img {
+      width: 100%;
+  }
+  
+}
+
+@media(max-width: 768px) {
+  .img0 {
+      width: 100%;
+  }
+}
+
+.icon{
+  background-color:#4692c6  !important;
+  width: 160px !important;
+  height: 100px !important;
+  color: white !important;
+  border-radius: 30% 70% 70% 30% / 30% 37% 63% 70% !important ;
+  display: flex !important; 
+  font-size: 50px !important;
+  justify-content: center !important;
+  align-items: center !important;
+  text-align: center !important;
+  
+
+}
+
+
+.team-member {
+  img {
+    aspect-ratio: 1/1;
+  }
+}
+
