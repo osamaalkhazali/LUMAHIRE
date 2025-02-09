@@ -12,10 +12,8 @@ Welcome to the LUMAHIRE project repository! This project is designed to streamli
 
 - [Introduction](#introduction)
 - [Features](#features)
-- [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## Introduction
 
@@ -26,11 +24,3 @@ LUMAHIRE is a web application designed to simplify the hiring process for both e
 - **Job Posting**: Employers can post job openings with detailed descriptions.
 - **Job Search**: Job seekers can search and apply for jobs.
 - **Application Management**: Employers can manage and track job applications.
-
-## Installation
-
-To get started with the LUMAHIRE project, follow these steps:
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/osamaalkhazali/LUMAHIRE.git
