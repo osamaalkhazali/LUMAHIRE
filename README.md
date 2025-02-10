@@ -12,7 +12,6 @@ Welcome to the LUMAHIRE project repository! This project is designed to streamli
 
 - [Introduction](#introduction)
 - [Features](#features)
-- [Usage](#usage)
 
 
 ## Introduction
