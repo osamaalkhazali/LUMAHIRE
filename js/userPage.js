@@ -81,9 +81,6 @@ fetch('../server/data.json')
                               <div class="col-md-4 text-center text-md-center">
                                 <div class="d-flex mb-3 justify-content-center justify-content-md-end">
                                   <!-- Save Job Button -->
-                                  <a class="btn love btn-light btn-sm me-2" title="Save Job" >
-                                    <i class="far fa-heart"></i>
-                                  </a>
                                 </div>
                                 <!-- Application Deadline -->
                                 <small><i class="far fa-calendar-alt me-1"></i>Deadline: ${job.applicationDeadline}</small>

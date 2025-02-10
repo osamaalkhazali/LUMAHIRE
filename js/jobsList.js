@@ -52,7 +52,7 @@ function jobQuery(job) {
                                 <div class="d-flex mb-3 justify-content-center justify-content-md-end">
                                   <!-- Save Job Button -->
                                   <a class="btn love btn-light btn-sm me-2" title="Save Job" >
-                                    <i class="far fa-heart"></i>
+                                    <i class="fa-solid fa-heart"></i>
                                   </a>
                                   <!-- Apply Now Button -->
                                   <a class="btn btn-primary btn-sm" href="mailto:${job.email}" onclick="history(${job.id})">

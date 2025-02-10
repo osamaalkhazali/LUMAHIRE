@@ -13,7 +13,6 @@
 
 body {
     color: var(--body) !important;
-
     line-height: 1.7 !important;
     * {
         transition: all 0.3s ease !important;

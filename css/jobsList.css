@@ -45,9 +45,9 @@
 }
 
 .btn-light:hover {
-  background-color: #092032 !important; /* Dark background on hover */
-  color: #fff !important; /* White text on hover */
-}
+i {
+  color: red !important;
+}}
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
