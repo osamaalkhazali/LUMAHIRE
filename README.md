@@ -7,6 +7,7 @@ Welcome to the LUMAHIRE project repository! This project is designed to streamli
 - **Github Pages**: [https://osamaalkhazali.github.io/LUMAHIRE/](https://osamaalkhazali.github.io/LUMAHIRE/)
 - **Figma Design**: [https://www.figma.com/design/oKaxhAuYevyWZ1trsFyi3R/LUMAHIRE?node-id=0-1&t=5HUOBNi7BN1f9TlJ-0](https://www.figma.com/design/oKaxhAuYevyWZ1trsFyi3R/LUMAHIRE?node-id=0-1&t=5HUOBNi7BN1f9TlJ-0)
 - **Trello Board**: [https://trello.com/b/0MxQ1pVr/job](https://trello.com/b/0MxQ1pVr/job)
+- **Presentation**: [https://www.canva.com/design/DAGeowqltVE/unHDood38vc15HBNXGwWJA/edit?utm_content=DAGeowqltVE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton]
 
 ## Table of Contents
 
